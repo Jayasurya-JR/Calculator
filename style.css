@@ -1,28 +1,58 @@
-body{
+html, body{
     height: 100%;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
+    margin: auto;
+    margin-top: 30px;
 }
 
 .text-center{
     text-align: center;
     text-transform: capitalize;
-    font-size: 40px;
 }
+
 .container{
-    max-width: 25%;
-    border: 2px solid #000;
-    border-radius: 20px;
-    text-align: center;
     margin: auto;
-    padding: 15px;
+    max-width: 350px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #000000a8;
 }
-.input-field{
-    padding: 10px 50px;
-}
+
 .button{
     padding: 20px;
-    margin: 15px;
-    font-size: 5px;
+    margin: 0 8px;
+    border: 2px solid #9aa692;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #000000b5;
+    color: white;
+}
+
+.button:hover{
+    background-color: rgba(228, 228, 228, 0.882);
+    color: black;
+    border: 2px solid black;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.row{
+    margin: 15px 0;
+}
+
+.input-box{
+    margin-top: 13px;
+    padding: 11px 39px 3px 4px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #b6ffb6;
+}
+
+.button-eq{
+    color: black;
+    background-color: darkgoldenrod;
 }
