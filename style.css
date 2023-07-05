@@ -1,0 +1,72 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.text-center {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.container {
+  margin: auto;
+  max-width: 350px;
+  border-radius: 20px;
+  background-color: #000000a8;
+}
+
+.button {
+  padding: 20px;
+  margin: 0 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #000000b5;
+  color: white;
+  box-shadow: 2px -1px 0px 1px #00000094, 6px 6px 16px rgb(0 0 0 / 16%);
+}
+
+.button:hover {
+  background-color: rgba(228, 228, 228, 0.882);
+  color: black;
+  border: 2px solid black;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row {
+  margin: 15px 0;
+}
+
+.input-box {
+  margin-top: 20px;
+  height: 30px;
+  padding: 11px 39px 3px 4px;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: #b6ffb6;
+  box-shadow: inset -6px -6px 13px #b6ffb6,
+    inset 6px 6px 13px rgba(0, 0, 0, 0.16);
+}
+
+.button-eq {
+  color: black;
+  background-color: rgb(253, 195, 49);
+  width: 120px;
+}
+
+.button-eq:hover {
+  background-color: red;
+}
+.button-del {
+  padding: 7px 17px;
+}
+
+.con-shad {
+  box-shadow: 6px 6px 16px #000000a8, 6px 6px 16px rgb(0, 0, 0, 0.16);
+}

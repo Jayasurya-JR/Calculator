@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="icon" href="icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="calculator">
+      <h1 class="text-center">calculator</h1>
+      <div class="container flex flex-col con-shad">
+        <div>
+          <input class="input-box" id="input-text" type="text" placeholder="0"/>
+        </div>
+        <div class="row row-1">
+          <button onclick="clr()" class="button button-clear">C</button>
+          <button onclick="del()" class="button button-del">
+            <p>&#8592;</p>
+          </button>
+          <button onclick="calculate('.')" class="button button-perc">.</button>
+          <button onclick="calculate('+')" class="button button-add">+</button>
+        </div>
+        <div class="row">
+          <button onclick="calculate(1)" class="button button-4">1</button>
+          <button onclick="calculate(2)" class="button button-5">2</button>
+          <button onclick="calculate(3)" class="button button-6">3</button>
+          <button onclick="calculate('-')" class="button button-sub">-</button>
+        </div>
+        <div class="row">
+          <button onclick="calculate(4)" class="button button-4">4</button>
+          <button onclick="calculate(5)" class="button button-5">5</button>
+          <button onclick="calculate(6)" class="button button-6">6</button>
+          <button onclick="calculate('*')" class="button button-mul">*</button>
+        </div>
+        <div class="row">
+          <button onclick="calculate(7)" class="button button-7">7</button>
+          <button onclick="calculate(8)" class="button button-8">8</button>
+          <button onclick="calculate(9)" class="button button-9">9</button>
+          <button onclick="calculate('/')" class="button button-div">/</button>
+        </div>
+        <div class="row">
+          <button onclick="calculate(0)" class="button button-zero">0</button>
+          <button onclick="calculate('00')" class="button button-dot">
+            00
+          </button>
+          <button onclick="Result()" class="button button-eq">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
