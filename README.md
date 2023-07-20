@@ -1,4 +1,6 @@
 # Calculator
  calculator using html,css,js
 
-creating a html page 
+created a calculator page using html 
+Designed it with CSS
+Added function to calculate the inputs
